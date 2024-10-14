@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a goal-driven Software Engineer with a strong background in Front-end Development and UI/UX Design, specializing in Web and Mobile platforms. My professional experience encompasses hands-on proficiency in technologies like JavaScript, TypeScript, React, React Native, Redux, Node.js, Figma, and Python. My emphasis lies in developing robust software applications with user-friendly interfaces, contributing to business expansion and elevating the overall user experience.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

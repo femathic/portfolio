@@ -46,13 +46,13 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Frontend Development',
     icon: frontend,
   },
-  {
-    title: 'Backend Developer',
-    icon: backend,
-  },
+  // {
+  //   title: 'Backend Developer',
+  //   icon: backend,
+  // },
   {
     title: 'UI/UX Design',
     icon: ux,
@@ -96,18 +96,18 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
   {
     name: 'graphql',
     icon: graphql,
   },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
     name: 'git',
     icon: git,
@@ -124,40 +124,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
     title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'UBA Group',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Jun 2018 - May 2019',
+  },
+  {
+    title: 'Software Engineer',
+    company_name: 'Ash Nelson Partners',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'May 2019 - Apr 2021',
+  },
+  {
+    title: 'Senior Software Engineer (Contract)',
+    company_name: 'Floating Point Group',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Sep 2022 - Feb 2023',
+  },
+  {
+    title: 'Senior Software Engineer',
+    company_name: 'Skuad',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Apr 2021 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Moovis',
+    description: 'A movies and shows listing gallery',
     tags: [
       {
         name: 'react',
@@ -173,14 +173,14 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/femathic/movie_gallery',
+    demo: 'https://moovis.netlify.app/home',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'NextGen',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Analytics page UI design challenge for NextGen.',
     tags: [
       {
         name: 'react',
@@ -195,36 +195,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    // image: leaderboard,
+    image: math,
+    repo: 'https://github.com/femathic/nextgen-analytics-page-challenge',
+    demo: 'https://femathic.github.io/nextgen-analytics-page-challenge/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Writers Probe',
+    description: `A creative writing website concept`,
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +219,13 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/femathic/writersprob',
+    demo: 'https://femathic.github.io/writersprob/',
   },
   {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+    id: 'project-4',
+    name: 'Itedoanu',
+    description: 'A Cooperative Multipurpose Society',
     tags: [
       {
         name: 'nextjs',
@@ -262,10 +240,34 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: leaderboard,
+    // image: math,
+    // repo: 'https://github.com/shaqdeff/Math-Magicians',
+    demo: 'https://itedoanu.com.ng',
   },
+  // {
+  //   id: 'project-5',
+  //   name: 'Nyeusi Fest Site',
+  //   description:
+  //     'This is a demo concert website for a music festival called Nyeusi.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: nyeusi,
+  //   repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+  //   demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+  // },
 ];
 
 export { services, technologies, experiences, projects };
